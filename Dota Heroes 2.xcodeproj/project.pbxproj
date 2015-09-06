@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0F1072B1B98A2AF008EA4E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F1072A1B98A2AF008EA4E4 /* AppDelegate.swift */; };
+		A0F1072D1B98A2AF008EA4E4 /* StrengthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F1072C1B98A2AF008EA4E4 /* StrengthViewController.swift */; };
+		A0F1072F1B98A2AF008EA4E4 /* AgilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F1072E1B98A2AF008EA4E4 /* AgilityViewController.swift */; };
+		A0F107321B98A2AF008EA4E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F107301B98A2AF008EA4E4 /* Main.storyboard */; };
+		A0F107341B98A2AF008EA4E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0F107331B98A2AF008EA4E4 /* Images.xcassets */; };
+		A0F107371B98A2AF008EA4E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0F107351B98A2AF008EA4E4 /* LaunchScreen.xib */; };
+		A0F107431B98A2AF008EA4E4 /* Dota_Heroes_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F107421B98A2AF008EA4E4 /* Dota_Heroes_2Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0F1073D1B98A2AF008EA4E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0F1071D1B98A2AF008EA4E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0F107241B98A2AF008EA4E4;
+			remoteInfo = "Dota Heroes 2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0F107251B98A2AF008EA4E4 /* Dota Heroes 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dota Heroes 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F107291B98A2AF008EA4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F1072A1B98A2AF008EA4E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0F1072C1B98A2AF008EA4E4 /* StrengthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrengthViewController.swift; sourceTree = "<group>"; };
+		A0F1072E1B98A2AF008EA4E4 /* AgilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgilityViewController.swift; sourceTree = "<group>"; };
+		A0F107311B98A2AF008EA4E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0F107331B98A2AF008EA4E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A0F107361B98A2AF008EA4E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A0F1073C1B98A2AF008EA4E4 /* Dota Heroes 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dota Heroes 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F107411B98A2AF008EA4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F107421B98A2AF008EA4E4 /* Dota_Heroes_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dota_Heroes_2Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0F107221B98A2AF008EA4E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F107391B98A2AF008EA4E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0F1071C1B98A2AF008EA4E4 = {
+			isa = PBXGroup;
+			children = (
+				A0F107271B98A2AF008EA4E4 /* Dota Heroes 2 */,
+				A0F1073F1B98A2AF008EA4E4 /* Dota Heroes 2Tests */,
+				A0F107261B98A2AF008EA4E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0F107261B98A2AF008EA4E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0F107251B98A2AF008EA4E4 /* Dota Heroes 2.app */,
+				A0F1073C1B98A2AF008EA4E4 /* Dota Heroes 2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0F107271B98A2AF008EA4E4 /* Dota Heroes 2 */ = {
+			isa = PBXGroup;
+			children = (
+				A0F1072A1B98A2AF008EA4E4 /* AppDelegate.swift */,
+				A0F1072C1B98A2AF008EA4E4 /* StrengthViewController.swift */,
+				A0F1072E1B98A2AF008EA4E4 /* AgilityViewController.swift */,
+				A0F107301B98A2AF008EA4E4 /* Main.storyboard */,
+				A0F107331B98A2AF008EA4E4 /* Images.xcassets */,
+				A0F107351B98A2AF008EA4E4 /* LaunchScreen.xib */,
+				A0F107281B98A2AF008EA4E4 /* Supporting Files */,
+			);
+			path = "Dota Heroes 2";
+			sourceTree = "<group>";
+		};
+		A0F107281B98A2AF008EA4E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0F107291B98A2AF008EA4E4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0F1073F1B98A2AF008EA4E4 /* Dota Heroes 2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A0F107421B98A2AF008EA4E4 /* Dota_Heroes_2Tests.swift */,
+				A0F107401B98A2AF008EA4E4 /* Supporting Files */,
+			);
+			path = "Dota Heroes 2Tests";
+			sourceTree = "<group>";
+		};
+		A0F107401B98A2AF008EA4E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0F107411B98A2AF008EA4E4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0F107241B98A2AF008EA4E4 /* Dota Heroes 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0F107461B98A2AF008EA4E4 /* Build configuration list for PBXNativeTarget "Dota Heroes 2" */;
+			buildPhases = (
+				A0F107211B98A2AF008EA4E4 /* Sources */,
+				A0F107221B98A2AF008EA4E4 /* Frameworks */,
+				A0F107231B98A2AF008EA4E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dota Heroes 2";
+			productName = "Dota Heroes 2";
+			productReference = A0F107251B98A2AF008EA4E4 /* Dota Heroes 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0F1073B1B98A2AF008EA4E4 /* Dota Heroes 2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0F107491B98A2AF008EA4E4 /* Build configuration list for PBXNativeTarget "Dota Heroes 2Tests" */;
+			buildPhases = (
+				A0F107381B98A2AF008EA4E4 /* Sources */,
+				A0F107391B98A2AF008EA4E4 /* Frameworks */,
+				A0F1073A1B98A2AF008EA4E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0F1073E1B98A2AF008EA4E4 /* PBXTargetDependency */,
+			);
+			name = "Dota Heroes 2Tests";
+			productName = "Dota Heroes 2Tests";
+			productReference = A0F1073C1B98A2AF008EA4E4 /* Dota Heroes 2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0F1071D1B98A2AF008EA4E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Sravan;
+				TargetAttributes = {
+					A0F107241B98A2AF008EA4E4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A0F1073B1B98A2AF008EA4E4 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A0F107241B98A2AF008EA4E4;
+					};
+				};
+			};
+			buildConfigurationList = A0F107201B98A2AF008EA4E4 /* Build configuration list for PBXProject "Dota Heroes 2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0F1071C1B98A2AF008EA4E4;
+			productRefGroup = A0F107261B98A2AF008EA4E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0F107241B98A2AF008EA4E4 /* Dota Heroes 2 */,
+				A0F1073B1B98A2AF008EA4E4 /* Dota Heroes 2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0F107231B98A2AF008EA4E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F107321B98A2AF008EA4E4 /* Main.storyboard in Resources */,
+				A0F107371B98A2AF008EA4E4 /* LaunchScreen.xib in Resources */,
+				A0F107341B98A2AF008EA4E4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F1073A1B98A2AF008EA4E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0F107211B98A2AF008EA4E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F1072F1B98A2AF008EA4E4 /* AgilityViewController.swift in Sources */,
+				A0F1072B1B98A2AF008EA4E4 /* AppDelegate.swift in Sources */,
+				A0F1072D1B98A2AF008EA4E4 /* StrengthViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F107381B98A2AF008EA4E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F107431B98A2AF008EA4E4 /* Dota_Heroes_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0F1073E1B98A2AF008EA4E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0F107241B98A2AF008EA4E4 /* Dota Heroes 2 */;
+			targetProxy = A0F1073D1B98A2AF008EA4E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0F107301B98A2AF008EA4E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0F107311B98A2AF008EA4E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0F107351B98A2AF008EA4E4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0F107361B98A2AF008EA4E4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0F107441B98A2AF008EA4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0F107451B98A2AF008EA4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0F107471B98A2AF008EA4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dota Heroes 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0F107481B98A2AF008EA4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dota Heroes 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0F1074A1B98A2AF008EA4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dota Heroes 2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dota Heroes 2.app/Dota Heroes 2";
+			};
+			name = Debug;
+		};
+		A0F1074B1B98A2AF008EA4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dota Heroes 2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dota Heroes 2.app/Dota Heroes 2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0F107201B98A2AF008EA4E4 /* Build configuration list for PBXProject "Dota Heroes 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F107441B98A2AF008EA4E4 /* Debug */,
+				A0F107451B98A2AF008EA4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0F107461B98A2AF008EA4E4 /* Build configuration list for PBXNativeTarget "Dota Heroes 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F107471B98A2AF008EA4E4 /* Debug */,
+				A0F107481B98A2AF008EA4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0F107491B98A2AF008EA4E4 /* Build configuration list for PBXNativeTarget "Dota Heroes 2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F1074A1B98A2AF008EA4E4 /* Debug */,
+				A0F1074B1B98A2AF008EA4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0F1071D1B98A2AF008EA4E4 /* Project object */;
+}
